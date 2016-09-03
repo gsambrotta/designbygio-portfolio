@@ -1,0 +1,55 @@
+
+/* General Rules */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  overflow: hidden;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  font-family: Georgia;
+  font-size: 0.7em;
+  font-style: italic;
+  letter-spacing: -1px;
+  color: $black;
+
+	width: 100%;
+  background: $white;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+  color: $black;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+img,
+a,
+a:hover,
+a:focus,
+a:active{
+	border:none;
+}
+
+ul {
+  list-style: none;
+}

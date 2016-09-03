@@ -1,0 +1,60 @@
+@mixin hexagon($size, $bkg, $border-left-right, $border: 0, $border-color: "") {
+  width: $size;
+  height: ($size * .577);
+	margin: ($size * .288) 0;
+  background: $bkg;
+  position: relative;
+  border-left: solid #{$border-color};
+  border-right: solid #{$border-color};
+	border-left-width: $border-left-right;
+  border-right-width: $border-left-right;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+
+		@if $border == 0 {
+		  width: 0;
+		  height: 0;
+		  border-left: ($size/2) solid transparent;
+		  border-right: ($size/2) solid transparent;
+
+    } @else {
+
+		 	z-index: 1;
+		  width: ($size * .707);
+		  height: ($size * .707);
+		  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+		  -ms-transform: scaleY(0.5774) rotate(-45deg);
+		  transform: scaleY(0.5774) rotate(-45deg);
+		  background-color: inherit;
+		  left: ($size * .129);
+	  }
+	}
+
+	&:before {
+		@if $border == 0 {
+			bottom: 100%;
+			border-bottom: ($size * .288) solid $bkg;
+
+		} @else {
+	    top: -($size * .353);
+	    border-top: $border solid #{$border-color};
+  		border-right: $border solid #{$border-color};
+  	}
+	}
+
+	&:after {
+	    @if $border == 0 {
+			top: 100%;
+			border-top: ($size * .288) solid $bkg;
+			width: 0;
+
+		} @else {
+	    bottom: -($size * .353);
+	    border-bottom: $border solid #{$border-color};
+  		border-left: $border solid #{$border-color};
+  	}
+	}
+}

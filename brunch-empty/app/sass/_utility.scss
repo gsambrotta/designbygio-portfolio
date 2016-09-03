@@ -1,0 +1,257 @@
+
+// --------------------------
+// UTILITY STYLE MENU
+// --------------------------
+
+// 1_ DISPLAY
+// 2_ ALIGN
+// 3_ POSITIONING
+// 4_ FONT
+// 5_ COLORS
+// 6_ SHAPE
+// 7_ LISTS
+// 8_ CENTERING
+// --------------------------
+
+// 1_ DISPLAY
+.u-inline {
+	display: inline;
+}
+
+.u-block {
+	display: block;
+}
+
+.u-inline-block {
+	display: inline-block;
+}
+
+.u-clearfix {
+	@include clearfix();
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+// 2_ ALIGN
+.u-center-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.u-align-r {
+	text-align: right;
+}
+
+.u-align-l {
+	text-align: left;
+}
+
+// 3_ POSITIONING
+.u-push-r {
+	float: right;
+}
+.u-push-l {
+	float: left;
+}
+
+// 4_ FONT
+.u-uppe {
+	text-transform: uppercase;
+}
+
+.u-capit {
+	text-transform: capitalize;
+}
+
+.u-low {
+	text-transform: lowercase;
+}
+
+.u-font-small {
+	font-size: 1rem;
+}
+
+
+// Decoration
+.u-subtitle-decoration {
+	@include flexbox;
+	justify-content: center;
+	padding: 20px 0;
+
+	hr {
+		height: 3px;
+		border: 0;
+    border-top: 3px solid $grey;
+    border-bottom: 3px solid $grey;
+    width: 20px;
+    margin: 0;
+    margin-top: 11px;
+	}
+
+	.u-subtitle-decoration__title {
+		padding: 0 10px;
+
+		&::before,
+		&::after {
+			height: 3px;
+			border: 0;
+	    border-top: 3px solid $grey;
+	    border-bottom: 3px solid $grey;
+	    width: 20px;
+	    margin: 0;
+	    margin-top: 11px;
+		}
+	}
+}
+
+// 5_ COLORS
+
+// Gradients
+// bkg
+@mixin green-blue-grd-bg() {
+  @include linear-gradient(right, $blue 0%, $green 100%);
+};
+
+// text
+@mixin green-blue-grd-txt() {
+ 	@include txt-gradient(right, $blue 0%, $green 100%);
+};
+
+//border
+@mixin green-blue-grd-brd() {
+	@include border-gradient(right, $blue 0%, $green 100%)
+};
+
+.green-blue-grd-bg {
+	@include green-blue-grd-bg();
+}
+
+.green-blue-grd-txt {
+	@include green-blue-grd-txt();
+}
+
+.tras-green-bg {
+  @include linear-gradient(right, $green 0%, transparent 100%);
+}
+
+.yellow-green-bg {
+  @include linear-gradient(-46deg, $green 0%, $yellow 100%);
+  @include linear-gradient(-46deg, $green 0%, $yellow 100%);
+}
+
+// 6_ SHAPE
+.u-hexa {
+	@include hexagon(50px, $grey, 2px);
+}
+
+.u-hexa-border {
+	@include hexagon(100px, $white, 1px, 2px, $green);
+}
+
+.u-hexa-border-radius {
+	@include hexagon(150px, $white, 2px, 3px, $green);
+	border-radius: 11px;
+	-moz-border-image: -moz-linear-gradient(right, $blue 0%, $green 100%);
+  -webkit-border-image: -webkit-linear-gradient(right, $blue 0%, $green 100%);
+  border-image: linear-gradient(right, $blue 0%, $green 100%);
+  border-image-slice: 1;
+
+
+	&::after,
+	&::before {
+		border-radius: 11px;
+		width: 150px * .720;
+		height: 150px * .695;
+		left: 19.35px;
+		-moz-border-image: -moz-linear-gradient(right, $blue 0%, $green 100%);
+	  -webkit-border-image: -webkit-linear-gradient(right, $blue 0%, $green 100%);
+	  border-image: linear-gradient(right, $blue 0%, $green 100%);
+	  border-image-slice: 1;
+	}
+
+	&::before {
+		top: -51.95px;
+	}
+
+	transform: rotate(30deg);
+}
+
+.u-square-box {
+	border: 1px solid $grey;
+  height: 150px;
+  margin: 13px 5px;
+  @include flexbox();
+  align-items: center;
+  justify-content: center;
+
+
+	img {
+		max-width: 80%;
+		height: auto;
+	}
+}
+
+.u-twelve-point-star {
+   height: 30px;
+   width: 30px;
+   border: 1px solid $main-color;
+   margin-left: 20px;
+
+   &:before {
+      height: 30px;
+      width: 30px;
+      border: 1px solid $main-color;
+      content:"";
+      position: absolute;
+      -moz-transform: rotate(30deg);
+      -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      -o-transform: rotate(30deg);
+      transform: rotate(30deg);
+   }
+
+   &:after {
+      height: 30px;
+      width: 30px;
+      border: 1px solid $main-color;
+      content:"";
+      position: absolute;
+      -moz-transform: rotate(-30deg);
+      -webkit-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+      -o-transform: rotate(-30deg);
+      transform: rotate(-30deg);
+   }
+}
+
+
+// 7_ LISTS
+
+.u-list--inline {
+	li {
+		display: inline;
+	}
+}
+
+// 8_ CENTERING
+.u-center-absolute {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-centered-axis-xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}

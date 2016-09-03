@@ -1,0 +1,4 @@
+@mixin bg-noise($color) {
+	background-image: url("images/noise.png");
+	background-color: $color;
+}
