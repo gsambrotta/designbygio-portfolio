@@ -1,4 +1,3 @@
-
 .section-title {
 	color: $white;
 	text-align: center;
@@ -11,7 +10,7 @@
 		content: "";
 		width: 42px;
 		height: 1px;
-		border-top: 5px solid $main-green;
+		border-top: 5px solid $water-green;
 		display: block;
     position: relative;
     transform: rotate(-55deg);
@@ -25,5 +24,44 @@
 	&::after {
     top: 14px;
     left: 45%;
+	}
+
+	&--light-bg {
+		color: $white;
+
+		&::before,
+		&::after {
+			border-top: 5px solid $sun;
+		}
+	}
+}
+
+
+// BUTTONS
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	padding: 11px 14px;
+	border: 2px solid;
+	min-width: 200px;
+	text-transform: uppercase;
+  font-style: normal;
+
+	&:hover {
+		border-color: transparent;
+	}
+
+	&--resume {
+		margin-top: 4em;
+		border-color: $water-green;
+		background: $dark-violet;
+		color: $white;
+
+		&:hover {
+			background: $white;
+			color: $dark-violet;
+			opacity: 1;
+    	font-weight: bold;
+		}
 	}
 }

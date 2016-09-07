@@ -1,11 +1,18 @@
-<div id="projectsWrap" class="galleryContent">
-	hello i'm a project
+<div id="projectsWrap" class="projects-wrap">
 	{{#each works}}
-		<div class="thumble">
-			<img src="{{ path }}" alt="{{ alt }}"/>
-			<h2>{{ title }}</h2>
-			<p>{{ description }}</p>
-			<p><a href="{{ directLink }}" target="_blank">{{ directLink }}</a></p>
+
+		<div class="hexa-img" style="background-image: url({{ path}})">
+		<div class="corner-1"></div>
+		<div class="corner-2"></div>
 		</div>
 	{{/each}}
 </div>
+
+<!--
+<div class="thumble">
+	<img src="{{ path }}" alt="{{ alt }}"/>
+	<h2>{{ title }}</h2>
+	<p>{{ description }}</p>
+	<p><a href="{{ directLink }}" target="_blank">{{ directLink }}</a></p>
+</div>
+-->

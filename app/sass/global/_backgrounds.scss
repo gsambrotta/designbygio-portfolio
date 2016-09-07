@@ -14,39 +14,30 @@
 #about-section {
   z-index: 5; // slide over group 2
   .parallax__layer--base {
-    background: $prugna;
+    background: $dark-violet;
   }
 }
 
 #projects-section {
   z-index: 4; // slide over group 2 and 4
   .parallax__layer--base {
-    background: #FFCC54;
+    background: $main-color;
+    margin-bottom: -15em;
   }
 }
 
 #cta-section {
   z-index: 2; // slide under group 3 and 5
-  .parallax__layer--deep {
-    background: #3498DB;
+  height: 90vh;
+  .parallax__layer--base {
+    background: $sun;
   }
 }
 
 #contact-section {
+  height: 95vh;
   z-index: 3; // slide over group 4 and 6
   .parallax__layer--base {
-    background: $prugna;
+    background: $dark-violet;
   }
 }
-
-
- // centre the content in the parallax layers
-.title {
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-

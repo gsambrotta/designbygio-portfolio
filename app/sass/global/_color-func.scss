@@ -1,0 +1,9 @@
+@each $key, $color in $colors {
+  .font-#{$key} {
+    background: $color;
+
+    &--text {
+    	color: $color;
+    }
+  }
+}

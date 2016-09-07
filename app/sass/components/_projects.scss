@@ -1,0 +1,11 @@
+.projects-wrap {
+	width: 59%;
+	margin: 0 auto;
+	margin-top: 20em;
+
+	.hexa-img:nth-child(5),
+	.hexa-img:nth-child(12),
+	.hexa-img:nth-child(18), {
+		margin-left: 86px;
+	}
+}
