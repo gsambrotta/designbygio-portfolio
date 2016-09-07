@@ -1,0 +1,29 @@
+
+.section-title {
+	color: $white;
+	text-align: center;
+	margin: 72px 0 95px;
+	font-size: 4.8rem;
+	font-style: normal;
+
+	&::before,
+	&::after {
+		content: "";
+		width: 42px;
+		height: 1px;
+		border-top: 5px solid $main-green;
+		display: block;
+    position: relative;
+    transform: rotate(-55deg);
+	}
+
+	&::before {
+    top: -12px;
+    left: 51%;
+	}
+
+	&::after {
+    top: 14px;
+    left: 45%;
+	}
+}

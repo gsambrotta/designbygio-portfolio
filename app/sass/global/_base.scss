@@ -10,12 +10,12 @@ body, html {
 }
 
 html {
-  font-size: 62%;
+  font-size: 62.5%;
 }
 
 body {
   font-family: Georgia;
-  font-size: 0.7em;
+  font-size: 14px;
   font-style: italic;
   letter-spacing: -1px;
   color: $black;
@@ -26,12 +26,27 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-size: 100%;
 	font-weight: normal;
 }
 
+h1 {
+  font-size: 3.2rem;
+}
+
 h2 {
-	font-size: 2rem;
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
 }
 
 a {
