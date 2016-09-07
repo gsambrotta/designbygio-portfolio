@@ -11,10 +11,16 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
+
   "dependencies": {
     "ionicons": "^3.0.0",
-    "static-handlebars-brunch": "^0.1.5"
+    "//": [
+      "static-handlebars-brunch:",
+      "^0.1.5",
+      "to use just as first build, then comment out and build again.",
+      "is because of conflict with this and handlebars-brunch" ]
   },
+
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
     "brunch": "^2.0.0",

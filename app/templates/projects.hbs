@@ -1,0 +1,11 @@
+<div id="projectsWrap" class="galleryContent">
+	hello i'm a project
+	{{#each works}}
+		<div class="thumble">
+			<img src="{{ path }}" alt="{{ alt }}"/>
+			<h2>{{ title }}</h2>
+			<p>{{ description }}</p>
+			<p><a href="{{ directLink }}" target="_blank">{{ directLink }}</a></p>
+		</div>
+	{{/each}}
+</div>
