@@ -1,4 +1,10 @@
-function doAjaxRequest() {
+document.addEventListener('DOMContentLoaded', function() {
+	typingInit();
+	requestAndDisplayProjects();
+});
+
+
+function requestAndDisplayProjects() {
 	var xhr;
 	var viewEl = document.getElementById('viewProjects');
 	var tmp = require('./templates/projects');
@@ -38,37 +44,42 @@ function doAjaxRequest() {
 	}
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-	console.log('is working!');
-
+function typingInit() {
 	var titleEl = document.getElementById('autoType');
 	var keywords = [
-		'determinated',
-		'entusiath',
-		'curious'
+		'determined',
+		'curious',
+		'passionated',
+		'sunny',
+		'responsible',
+		'flexible',
+		'enthusiastic'
 	]
 
 	var index = 0;
 	var arrCount = 0;
+	var timer;
 
-	window.typingAnimation = function () {
+	function typingAnimation() {
 		if ( index <= keywords[arrCount].length) {
 			titleEl.innerHTML = keywords[arrCount].substr(0, index++);
-			setTimeout('typingAnimation()', 100);
+			timer = setTimeout( function() {
+				typingAnimation();
+			}, 100);
 		} else {
 			arrCount++;
 			index = 0;
 			if (arrCount === keywords.length) {
 				arrCount = 0;
 			}
-			setTimeout('typingAnimation()', 500);
+			timer = setTimeout( function() {
+				typingAnimation();
+			}, 500);
 		}
 	}
-	typingAnimation();
-	// cleartimeout
 
-	doAjaxRequest();
+	return typingAnimation();
+}
 
-});
 
 

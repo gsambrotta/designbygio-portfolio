@@ -65,3 +65,15 @@
 		}
 	}
 }
+
+// GRID ( or kind of :) )
+.row {
+	@include flexbox();
+	justify-content: center;
+  align-items: center;
+  margin-bottom: 6em;
+
+  .col-3 {
+		width: 33%;
+	}
+}

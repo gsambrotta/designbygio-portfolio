@@ -1,7 +1,7 @@
 
 // Colors
 $white: #fff;
-$black: #444;
+$black: #333;
 $grey: #798f9a;
 $light-grey: #eee;
 
@@ -17,8 +17,9 @@ $green: #2ecc71;
 $yellow: #f6d149;
 $red: #fc5b5b;
 
+$main-darker: darken($main-color, 20%);
 
-// TODO: Create palette colors and classes mixin
+// Color palette for classes
 $colors : (
 	white: #fff,
 	black: #444,

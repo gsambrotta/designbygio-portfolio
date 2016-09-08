@@ -1,0 +1,23 @@
+#contact-section {
+	h3 {
+		width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-weight: 600;
+	}
+
+	a {
+		text-decoration: none;
+		color: $main-color;
+		font-style: normal;
+		text-shadow: 1px 2px 0px $main-darker;
+		display: block;
+
+		&:hover {
+			text-shadow: none;
+			color: $main-darker;
+		}
+
+	}
+
+}
