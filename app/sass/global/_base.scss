@@ -83,6 +83,19 @@ nav ul {
 }
 
 
-#about-section h3 {
-  margin-top: 15rem;
+#about-section {
+  h3 {
+    margin-top: 15rem;
+  }
+
+  p {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+  }
+}
+
+#cta-section h2 {
+  font-size: 3rem;
+  bottom: 30%;
+  width: 60%;
 }

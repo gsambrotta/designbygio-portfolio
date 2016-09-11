@@ -4,9 +4,74 @@
 	margin: 0 auto;
 	margin-top: 20em;
 
+	.description {
+		display: none;
+
+		.description__title,
+		.description__text {
+			text-align: left;
+			transform: scale(0.2);
+	    width: 376%;
+	    margin-left: -141%;
+      margin-top: -36%;
+		}
+
+		.description__title {
+			font-size: 5rem;
+			border-bottom: 2px solid;
+    	padding-bottom: 20px;
+    	line-height: 47px;
+    	height: 106px;
+    	margin-bottom: -77px;
+	    display: flex;
+	    align-items: center;
+		}
+
+		.description__text {
+			font-size: 3rem;
+	    line-height: 37px;
+	    letter-spacing: 0px;
+	    word-break: break-word;
+	    display: flex;
+	    align-items: center;
+	    min-height: 69px;
+	    max-height: 82px;
+
+	    &.skills {
+    		font-size: 3.5rem;
+	    }
+
+		}
+	}
+
+	.hexa-img:hover {
+		animation: scale 0.8s linear;
+		transform: scale(2.5);
+		z-index: 999;
+		background-color: $perl;
+		background-image: none !important;
+
+		.description {
+			display: block;
+		}
+	}
+
 	.hexa-img:nth-child(5),
 	.hexa-img:nth-child(12),
 	.hexa-img:nth-child(18), {
 		margin-left: 86px;
+	}
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(1);
+		background-color: transparent;
+	}
+
+	100% {
+		transform: scale(2.5);
+		background-color: $perl;
+		background-image: none !important;
 	}
 }

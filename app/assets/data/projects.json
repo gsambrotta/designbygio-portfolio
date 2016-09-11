@@ -1,5 +1,126 @@
 [
 	{
+		"path": "images/web/tb/tb_web_100Danish.png",
+		"alt": "100Danish",
+		"title": "100Danish",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_devolute.png",
+		"alt": "devolute",
+		"title": "Devolute",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_wine-catalouge.png",
+		"alt": "Wine catalouge",
+		"title": "Wine catalouge",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_social-dashboard.png",
+		"alt": "Social dashboard",
+		"title": "Social dashboard",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_bathtime.png",
+		"alt": "bathtime",
+		"title": "Bathtime",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_boatify.png",
+		"alt": "boatify",
+		"title": "Boatify",
+		"description": "Platform aimed to offer boat experiences.",
+		"directLink": "http://boatify.me",
+		"descriptionSingle":
+		"Boatify \n is a young startup which aim to offer boat rental for baot experience, daily trip or overnight adventure. \r At the beginning of Boatify adventure, i wroked as solo Frontend Developer, in collaboration with a Backend Developer. The platform was made in php, Rest API, plain javascript/jquery and sass. I took care about everything Frontend related, from templating to animation and calculation until validation and responsivness. \n Work at boatify was always under timing pressure and was interesting to find the way to have the best code and architectural result with few time and higest modification-request margin. \n Very challenging was the development of the booking schedule calendar, done on top of Fullcalendar plugin.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_dit.png",
+		"alt": "das ist thueringen",
+		"title": "Thueringen a la kart",
+		"description": "Interactive map for Thueringen region (Germany)",
+		"directLink": "http://www.das-ist-thueringen.de/de/thueringen-a-la-kart",
+		"descriptionSingle":
+		"Thueringen a la kart \n As integration of the Thueringen website, the interactive map allow users to discover which interesting point is present in the region. \r The map is based on OpenStreet Map and Leaflet API with custom menu filter and marker aggregator. The menu is also completely responsive. \n Behind this map there is big research work into Leaflet API. Filter is completely custom and it was interesting to combine it with the Leafletjs. \n Additionaly, the map is part of CMS, Alchemy CMS; basic familiarity with this tool was also part of the work.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_buzzfeed.png",
+		"alt": "buzzfeed",
+		"title": "BuzzFeed",
+		"description": "Frontend Developer for renomate news and entertainment platform",
+		"directLink": "http://www.buzzfeed.com/",
+		"descriptionSingle":
+		"BuzzFeed \n I worked with Buzzfeed as memeber of SASS & Frontend Architectural Refactor Team. \r We worked hard to refactor the platform from legacy code to organised Css Architecture. We worked with BEM technique. \n There i also ha dthe chance to experiment many new technique and find best practice always taking care about old browsers support. \n My work at BuzzFeed was entirly remote and good communications skills were key part for the success of our team.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_extrapaddle.png",
+		"alt": "Extrapaddle",
+		"title": "Extra Paddle",
+		"description": "Platform with social network functionality developed with Backbone connected to Ruby on Rails backend",
+		"directLink": "http://extrapaddle.com/",
+		"descriptionSingle":
+		"I followed this project at its early stage. Starting from the UX and user focus reserach, I developed a the workflow with wireframes, then I designed them in a Photoshop mockups. When the mockups were ready I start to work on the user interface developing the single page app with Backbone.js and the static website with jQuery, Html5 and sass.",
+		"tags": "js | css | html5 | backbone"
+
+	},
+	{
+		"path": "images/web/tb/tb_web_artrank.jpg",
+		"alt": "Artist Rank",
+		"title": "ARTRANK",
+		"description": "Platform for rating artists and various art category made in Ember.js",
+		"directLink": "https://github.com/gsambrotta/mini-js-/tree/master/artistRaking",
+		"descriptionSingle":
+		"Project made during hackership program, a program promote from OpenTechSchool where developers stay full-time in a distraction-free learning environment together with other peers for learn more about a certain topic. <br> I decided to improve my Javascript skills and learn two javascript framework: Ember and Backbone. <br> This project is a platform following the wiki idea where the community add information everytime about certains artists and than vote for the various categories in order to have the best and the worst of each category, made by users.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_js-calendar.png",
+		"alt": "Vanilla Javascript Calendar",
+		"title": "Vanilla Javascript Calendar",
+		"description": "Ecommerce website offering natural body care products.",
+		"directLink": "http://bathtime.de/bathtime_stage",
+		"descriptionSingle":
+		"Bathtime \n is a ecommerce based on Prestashop platform, selling natural and cruelty free products for body care. \r I follow the entir project, from customer communications to environments setting up (production, stage and local), to actual functionality development. \n I coordinate another developer for the design and templating side. To collaborate and share our code, i set up a git hooks system in order to automatically add our code and database changes to the repo everytime we push or pull.\n Most intensive part of this project was the connection with payment system, delivery system and Amazon. THese connection required me a lot of reserach and testing.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
+		"path": "images/web/tb/tb_web_backbonecomm.jpg",
+		"alt": "Comment App",
+		"title": "CHAT APP",
+		"description": "Comment Form made with backbone.js",
+		"directLink": "http://designbygio.it/backbone-comment/",
+		"descriptionSingle":
+		"Project made during an hackaton in a team with Rubil on Rails developer and a designer. <br /> BookBeat is an app connected with Readmill API, the user is drive through the process to find the right track for a book choosen from him/her.",
+		"tags": "js | css | html5 | backbone"
+	},
+	{
 		"path": "images/web/tb/tb_web_bookbeat.jpg",
 		"alt": "Book Beat",
 		"title": "BOOK BEAT",
@@ -8,148 +129,24 @@
 		"descriptionSingle":
 		"Project made during an hackaton in a team with Rubil on Rails developer and a designer. <br /> BookBeat is an app connected with Readmill API, the user is drive through the process to find the right track for a book choosen from him/her.",
 
-		"pathSingle": "images/web/bookbeat1.png",
-		"altSingle": "Book Beat Focus",
-		"pathSingle2": "images/web/bookbeat2.png",
-		"altSingle2": "Book Beat Focus",
-		"pathSingle3": "images/web/bookbeat3.png",
-		"altSingle3": "Book Beat Focus"
-
+		"tags": "js | css | html5 | backbone"
 	},
-
 	{
 		"path": "images/web/tb/tb_web_dragdrop.jpg",
 		"alt": "Drag and drop",
-		"title": "DRAG AND DROP HTML5",
+		"title": "Drag&Drop Html5",
 		"description": "Drag and Drop App",
 		"descriptionSingle": "Online vinilys shopping developed for Mozilla Contest. <br />The drag and drop functionality is all develop in Html5",
 		"directLink": "https://developer.mozilla.org/it/demos/detail/drop-your-sound",
-		"pathSingle": "images/web/dragdrop.png",
-		"altSingle": "Drag and drop Focus"
+		"tags": "js | css | html5 | backbone"
 	},
-
-	{
-		"path": "images/web/tb/tb_web_todo.jpg",
-		"alt": "Todo List",
-		"title": "TODO LIST",
-		"description": "App with jQuery and LocalStorage",
-		"directLink": "http://designbygio.it/todo-app/todo.html",
-		"descriptionSingle": "Fancy Todo List made with jQeury. <br /> The elements are saved thanks to the Local Storage of the users browser.",
-		"pathSingle": "images/web/todo.png",
-		"altSingle": "Todo List Focus"
-	},
-
 	{
 		"path": "images/web/tb/tb_web_validation.jpg",
 		"alt": "Validation form",
-		"title": "SIGNIN WITH VALIDATION",
+		"title": "Signin with Validation",
 		"description": "SignIn Form with jqeury validation",
 		"descriptionSingle": "Sign in form with validation client-side. <br /> In the project there is a particular attention to the UI/UX. The user can see his/her password and have different and appropriate error message for each field. <br /> Developed in Javascript/Jquery making an Ajax request.",
 		"directLink": "http://designbygio.it/validation-form/form-val.html",
-		"pathSingle": "images/web/validationform.png",
-		"altSingle": "Validation Form Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_survey.jpg",
-		"alt": "Php Survey",
-		"title": "CHRISTMAS SURVEY",
-		"description": "Survey make in php",
-		"descriptionSingle": "Multiple choice survey about christmas's users habits. <br /> App made in php.",
-		"directLink": "http://designbygio.it/survey/index.html",
-		"pathSingle": "images/web/survey.png",
-		"altSingle": "Absolute Vodka Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_nikiscakes.jpg",
-		"alt": "Niki's Cakes",
-		"title": "NIKI'S CAKES",
-		"description": "Graphic Layout and Wordpress Development",
-		"descriptionSingle": "Website for Niki's cakes Berlin Backerey. <br /> Developed with Wordpress; customized theme made with Html and Css. <br /> Facebook integration and SEO optimization.",
-		"directLink": "http://www.nikiscakes.de/",
-		"pathSingle": "images/web/cupcakes.png",
-		"altSingle": "Niki's Cakes Focus",
-		"pathSingle2": "images/web/cupcakes2.png",
-		"altSingle2": "Niki's Cakes Intern Focus"
-
-	},
-
-	{
-		"path": "images/web/tb/tb_web_piccolipassi.jpg",
-		"alt": "Piccoli Passi",
-		"title": "PICCOLI PASSI ONLUS",
-		"description": "Graphic Layout, develop in Wordpress",
-		"descriptionSingle": "Piccoli Passi Onlus Website. <br /> Developed with Wordpress so that costums can costantly update. <br /> Customized theme made with Html and Css. Facebook integration and SEO optimization.",
-		"directLink": "http://www.associazionepiccolipassi.it",
-		"pathSingle": "images/web/piccolipassi.png",
-		"altSingle": "Piccoli Passi Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_studiosambrotta.jpg",
-		"alt": "Studio Sambrotta",
-		"title": "STUDIO SAMBROTTA ACCOUNTING",
-		"description": "Graphic Layout and Php",
-		"descriptionSingle": "Studio Sambrotta Accounting website. <br /> Developed with Php, html and css. Customized design.",
-		"directLink": "http://www.studiosambrotta.it",
-		"pathSingle": "images/web/studiosambrotta1.png",
-		"altSingle": "Studio Sambrotta Focus",
-		"pathSingle2": "images/web/studiosambrotta2.png",
-		"altSingle2": "Studio Sambrotta Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_elpaco.jpg",
-		"alt": "Eel.pa.co.",
-		"title": "EL.PA.CO.",
-		"description": "Graphic Layout and Wordpress development",
-		"descriptionSingle": "El.pa.co. Saronno accounting website. <br /> Developed with Wordpress so that costums can costantly update. <br /> Customized theme made with Html and Css.",
-		"pathSingle": "images/web/elpaco1.png",
-		"altSingle": "El.pa.co. Focus",
-		"pathSingle2": "images/web/elpaco2.png",
-		"altSingle2": "El.pa.co. Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_migliori.jpg",
-		"alt": "Migliori doctor",
-		"title": "MIGLIORI Doctor",
-		"description": "Html and Css3",
-		"directLink": "http://www.francomigliori.com",
-		"descriptionSingle": "Doc. Migliori surgeon website developed in pure Html and Css in collaboration with designer. <br /> Developed by Parla Parla agency in Milan.",
-		"pathSingle": "images/web/migliori1.png",
-		"altSingle": "Doct. Migliori Focus",
-		"pathSingle2": "images/web/migliori2.png",
-		"altSingle2": "Doct. Migliori Focus"
-	},
-
-	{
-		"path": "images/web/tb/tb_web_ippocampo.jpg",
-		"alt": "Ippocampo cleaning",
-		"title": "IPPOCAMPO CLEANING SERVICE",
-		"description": "Html and Css3 - Wordpress",
-		"descriptionSingle": "Cleaning Service Milan website. <br /> Developed with Wordpress so that the costum can costantly update. <br /> Customized theme made with Html and Css. <br /> In order: Homepage, service page with gallery and contact page with maps. <br /> Developed by Parla Parla agency in Milan.",
-		"pathSingle": "images/web/ippocampo1.png",
-		"altSingle": "Ippocampo cleaning Focus",
-		"pathSingle2": "images/web/ippocampo2.png",
-		"altSingle2": "Ippocampo cleaning Focus",
-		"pathSingle3": "images/web/ippocampo3.png",
-		"altSingle3": "Ippocampo cleaning Focus"
-	},
-
-
-	{
-		"path": "images/web/tb/tb_web_fournace.jpg",
-		"alt": "fournace",
-		"title": "THE FURNACE",
-		"description": "Graphic Layout",
-		"descriptionSingle": "Reinterpretation of australian Furnace Advertising agency website. <br /> Personal design, developed with Html and Css.",
-		"pathSingle": "images/web/furnace1.png",
-		"altSingle": "fournace Focus",
-		"pathSingle2": "images/web/furnace2.png",
-		"altSingle2": "fournace Focus",
-		"pathSingle3": "images/web/furnace3.png",
-		"altSingle3": "fournace Focus"
+		"tags": "js | css | html5 | backbone"
 	}
 ]
