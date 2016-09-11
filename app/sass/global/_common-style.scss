@@ -68,12 +68,18 @@
 
 // GRID ( or kind of :) )
 .row {
+	@include breakpoint(xs) {
+		display: block;
+	}
 	@include flexbox();
 	justify-content: center;
   align-items: center;
   margin-bottom: 6em;
 
   .col-3 {
+  	@include breakpoint(xs) {
+  		width: 100%;
+  	}
 		width: 33%;
 	}
 }

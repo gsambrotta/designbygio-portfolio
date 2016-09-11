@@ -1,0 +1,26 @@
+// vars
+
+@mixin breakpoint($point) {
+  @if $point == xs {
+    @media (max-width: 767px) { @content; }
+  }
+
+  @else if $point == sm {
+    @media (min-width: 768px) { @content; }
+  }
+
+  @else if $point == md {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $point == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+  @else if $point == small-xs {
+    @media (max-width: 540px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

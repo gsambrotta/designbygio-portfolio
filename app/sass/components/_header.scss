@@ -10,8 +10,13 @@ header {
 	}
 
 	.header__logo {
-		width: 30%;
+		width: 100%;
+		text-align: center;
 		float: left;
+		@include breakpoint(sm) {
+			width: 30%;
+			text-align: left;
+		}
 
 		.header__logo-img {
 			margin: 8px 0px 14px 30px;
@@ -19,8 +24,20 @@ header {
 	}
 
 	nav {
-		width: 67%;
 		display: inline-block;
+		width: 100%;
+		@include breakpoint(sm) {
+			width: 67%;
+		}
+
+		ul {
+			text-align: center;
+			margin-bottom: 10px;
+			@include breakpoint(sm) {
+				text-align: right;
+				margin-bottom: 0px;
+			}
+		}
 
 		a {
 			display: inline-flex;

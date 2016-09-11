@@ -53,5 +53,32 @@
 }
 
 #about-section.parallax__group {
-  min-height: 130vh;
+  min-height: 237vh;
+  @include breakpoint(sm) {
+    min-height: 170vh;
+  }
+  @include breakpoint(lg) {
+    min-height: 130vh;
+  }
+}
+
+#projects-section.parallax__group {
+  min-height: 250vh;
+  @include breakpoint(sm) {
+    min-height: 120vh;
+  }
+}
+
+#contact-section.parallax__group {
+  height: 152vh;
+  padding-bottom: 20px;
+  .section-title {
+    margin-top: 284px;
+  }
+  @include breakpoint(sm) {
+    height: 95vh;
+    .section-title {
+      margin-top: 72px;
+    }
+  }
 }

@@ -58,7 +58,8 @@ p {
 }
 
 a {
-  color: $black;
+  color: $main-color;
+  text-decoration: none;
 
   &:hover{
     opacity: 0.8;
@@ -94,8 +95,14 @@ nav ul {
   }
 }
 
-#cta-section h2 {
-  font-size: 3rem;
-  bottom: 30%;
-  width: 60%;
+#cta-section  {
+  @include breakpoint(xs) {
+    display: none;
+  }
+  display: block;
+  h2 {
+    bottom: 30%;
+    font-size: 3rem;
+    width: 60%;
+  }
 }
