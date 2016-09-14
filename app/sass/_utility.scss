@@ -11,6 +11,7 @@
 // 6_ SHAPE
 // 7_ LISTS
 // 8_ CENTERING
+// 9_ MEDIAQUERY
 // --------------------------
 
 // 1_ DISPLAY
@@ -289,6 +290,14 @@
       -ms-transform: rotate(30deg);
       -o-transform: rotate(30deg);
       transform: rotate(30deg);
+      @-moz-document url-prefix() {
+	      margin-top: -16px;
+				margin-left: -9px;
+			}
+
+			@supports (overflow:-webkit-marquee) and (justify-content:inherit)  {
+				margin-left: -9px;
+			}
    }
 
    &:after {
@@ -302,6 +311,13 @@
       -ms-transform: rotate(-30deg);
       -o-transform: rotate(-30deg);
       transform: rotate(-30deg);
+      @-moz-document url-prefix() {
+	      margin-top: -16px;
+				margin-left: -19px;
+			}
+			@supports (overflow:-webkit-marquee) and (justify-content:inherit)  {
+				margin-left: -20px;
+			}
    }
 }
 
@@ -328,4 +344,11 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+}
+
+// 9_ MEDIAQUERY
+
+.xs-show {
+	@include breakpoint(xs) { display: block; }
+	@include breakpoint(sm) { display: none; }
 }

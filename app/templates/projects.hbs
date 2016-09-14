@@ -1,23 +1,16 @@
 <div id="projectsWrap" class="projects-wrap">
 	{{#each works}}
 		<div class="hexa-img" style="background-image: url({{ path }})" alt="{{ alt }}">
+			<a href="{{ link }}" target="_blank" class="xs-show"></a>
 			<div class="corner-1"></div>
 			<div class="corner-2"></div>
 			<div class="description">
 				<h2 class="description__title">{{ title }}</h2>
 				<p class="description__text">{{ description }}</p>
-				<p class="description__text link"><a href="{{ directLink }}" target="_blank">{{ directLink }}</a></p>
+				<p class="description__text link"><a href="{{ link }}" target="_blank">{{ link }}</a></p>
 				<p class="description__text skills">{{ tags }} </p>
 			</div>
 		</div>
 	{{/each}}
 </div>
 
-<!--
-<div class="thumble">
-	<img src="{{ path }}" alt="{{ alt }}"/>
-	<h2>{{ title }}</h2>
-	<p>{{ description }}</p>
-	<p><a href="{{ directLink }}" target="_blank">{{ directLink }}</a></p>
-</div>
--->

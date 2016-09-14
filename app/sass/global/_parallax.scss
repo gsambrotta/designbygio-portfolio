@@ -52,6 +52,10 @@
   z-index: 2;
 }
 
+#intro-section.parallax__group {
+  min-height: 110vh;
+}
+
 #about-section.parallax__group {
   min-height: 237vh;
   @include breakpoint(sm) {
@@ -70,7 +74,7 @@
 }
 
 #contact-section.parallax__group {
-  height: 152vh;
+  height: 157vh;
   padding-bottom: 20px;
   .section-title {
     margin-top: 284px;
