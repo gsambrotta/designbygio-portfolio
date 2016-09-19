@@ -14,7 +14,6 @@
 
   "dependencies": {
     "ionicons": "^3.0.0",
-
     "//": [
       "static-handlebars-brunch:",
       "^0.1.5",
