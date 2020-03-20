@@ -416,12 +416,12 @@ nav li {
   color: white;
 }
 
-.contact-box__email span {
+.copy-clipboard-email {
   position: relative;
   cursor: pointer;
 }
 
-.contact-box__email span::after {
+.copy-clipboard-email::after {
   content: '';
   display: block;
   position: absolute;
@@ -433,9 +433,15 @@ nav li {
   transition: width 0.5s ease, background-color 0.5s ease;
 }
 
-.contact-box__email span:hover::after {
+.copy-clipboard-email:hover::after {
   width: 100%;
   background: #0fbab7;
+}
+
+.copy-clipboard-success {
+  display: none;
+  color: #0fbab7;
+  text-transform: uppercase;
 }
 
 .contact-box__social {

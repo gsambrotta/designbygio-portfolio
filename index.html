@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>
-      Sambrotta Giorgia - Web Developer &#38; Designer
+      Giorgia Sambrotta - Web Frontend Developer
     </title>
 
     <meta
@@ -97,7 +97,6 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- <script src="js/app.js"></script> -->
     <script>
       require('initialize')
     </script>
@@ -384,7 +383,8 @@
             <button>
               <a href="mailto:designbygio@pm.me">Drop me a line</a>
             </button>
-            <span>or copy to clipboard</span>
+            <span id="copyEmail" class='copy-clipboard-email'>or copy to clipboard</span>
+            <span id="emailCopied" class='copy-clipboard-success'>email copied!</span>
           </div>
 
           <div class="contact-box__social">
@@ -418,5 +418,7 @@
         </div>
       </section>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
