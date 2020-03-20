@@ -1,0 +1,19 @@
+
+.circles text {
+	fill: white;
+	font-size: 1.5rem;
+	transition: all .2s ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	&:hover:last-child {
+		transform: inherit;
+	}
+}
+
+.title {
+	font-size: 1.5rem;
+	font-family: sans-serif;
+}

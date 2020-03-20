@@ -1,0 +1,11 @@
+{"years":[
+  {"x":80, "r":40, "label":"4 months", "title": "Frontend Developer ", "client": "Boatify", "rightM": -25, "font": 1.2}, 
+  {"x":180, "r":30, "label":"3 months", "title": "Web Developer", "client": "Bathtime", "rightM": -25, "font": 1.2}, 
+  {"x":240, "r":10, "label":"1 months", "title": "javascript Developer", "client": "Magic Labs", "rightM": -25, "font": 1.2}, 
+  {"x":380, "r":100, "label":"1 year", "title": "Frontend & Sass Developer", "client": "Buzzfeed NY", "rightM": -30, "font": 2.3},
+  {"x":530, "r":30, "label":"3 months", "title": "UX/UI Expert", "client": "Art Butler", "rightM": -25, "font": 1.2},
+  {"x":640, "r":60, "label":"6 months", "title": "Frontend Developer & Designer", "client": "ExtraPaddle", "rightM": -25, "font": 1.2},
+  {"x":830, "r":100, "label":"1.5 years", "title": "Web Designer", "client": "Delivery Hero GmbH", "rightM": -30, "font": 2.3},
+  {"x":990, "r":50, "label":"5 months", "title": "Frontend Developer Junior", "client": "MCB - Rebate Networks", "rightM": -25, "font": 1.2},
+  {"x":1100, "r":30, "label":"3 months", "title": "Web Designer Junior", "client": "ParlaParla", "rightM": -25, "font": 1.2}
+]}

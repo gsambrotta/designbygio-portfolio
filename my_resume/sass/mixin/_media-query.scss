@@ -1,0 +1,45 @@
+// Mediaquery mixin - Mobile first approach
+// -----------------------------------------
+
+// Var sizes
+$mobile: 320px;
+$smallTablet: 530px;
+$tablet: 768px;
+$screen: 1024px;
+$screen-workSection: 1120px;
+
+
+@mixin breakpoint($media) {
+  @if $media == mobile { //max-width: 320px
+    @media only screen and (max-width: $mobile) { @content; }
+  }
+  @else if $media == smallTablet { //mix-width: 530px
+    @media only screen and (min-width: $smallTablet + 1) { @content; }
+  }
+  @else if $media == tablet { //min-width: 768px
+    @media only screen and (min-width: $tablet) { @content; }
+  }
+  @else if $media == screen { //min-width: 1025px
+    @media only screen and (min-width: $screen ) { @content; }
+  }
+  @else if $media == screenMedium { //min-width: 1025px
+    @media only screen and (min-width: $screen-workSection ) { @content; }
+  }
+
+}
+
+
+// Retina Display Images
+@mixin mq($mq) {
+  @if $mq == retina {
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        @content;
+    }
+  }
+}

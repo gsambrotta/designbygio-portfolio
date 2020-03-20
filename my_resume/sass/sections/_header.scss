@@ -1,0 +1,123 @@
+// Header Section
+
+.header-section {
+  background: $blue;
+  display: flex;
+  flex-wrap: wrap;
+	@include breakpoint(tablet) {
+		flex-wrap: nowrap
+	}
+	width: 100%;
+	height: 130px;
+
+	.header-box {
+		display: flex;
+		flex-wrap: wrap;
+		@include breakpoint(tablet) {
+			flex-wrap: nowrap
+		}
+		color: #fff;
+		padding-top: 10px;
+
+		.header-box__item {
+			height: 100%;
+			padding: 0 0px;
+			@include breakpoint(screen) {
+				padding: 0 20px;
+			}
+		} 
+
+		.header-box__smallIntro {
+			width: 100%;
+			display: none;
+			@include breakpoint(tablet) {
+				width: 40%;
+				display: block;
+			}
+			@include breakpoint(screen) {
+				width: 30%;
+				display: block;
+			}
+
+			p {
+				font-size: 1.2rem;
+				width: 80%;
+				text-align: right;
+				padding-right: 10px;
+				line-height: 1.2rem;
+				padding-top: 12px;
+				font-weight: 100;
+				font-style: italic;
+			}
+
+			span {
+				font-size: 10rem;
+				font-style: normal;
+			}
+		}
+		
+		.header-box__title {
+			text-align: center;
+			color: #fff;
+			width: 100%;
+			@include breakpoint(tablet) {
+				width: 50%;
+			}
+
+			.logo {
+				width: 295px;
+				margin-left: 10%;
+				@include breakpoint(smallTablet) {
+					margin-left: 40%;
+				}
+				@include breakpoint(tablet) {
+					margin-left: 10%;
+				}
+			}
+
+			h1 {
+				font-size: 3.5rem;
+				padding-bottom: 5px;
+				padding-top: 0px;
+				@include breakpoint(tablet) {
+					padding-top: 35px;
+				}
+			}
+		}
+	}
+
+	.header-box__contacts {
+		padding-top: 17px !important;
+		p {
+			font-size: 1rem;
+		}
+
+		.address {
+			float: left;
+		}
+
+		.socials {
+			padding-top: 60px;
+			position: absolute;
+    	right: 10px;
+    	@include breakpoint(tablet) {
+				position: relative;
+    		right: 0;
+			}
+
+			a {
+				padding: 0 5px;
+				color: #fff;
+				text-decoration: none;
+
+				&:first-child { padding-left: 0;}
+			}
+			i { font-size: 2.6rem; }
+
+			.text-icon {
+					font-size: 2rem;
+					font-family: sans-serif;
+				}
+		}
+	}
+}

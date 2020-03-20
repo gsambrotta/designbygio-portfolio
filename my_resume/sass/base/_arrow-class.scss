@@ -1,0 +1,41 @@
+
+.arrow {
+  position: relative;
+  background: #fff;
+  
+  &.default {
+    background: $blue;
+    @include css-arrow(bottom, center, 30px, 0, $blue);
+  }
+  
+  &.small {
+    background: $blue;
+    @include css-arrow(left, center, 6px, 0, $blue);
+  }
+  
+  &.med {
+    background: $blue;
+    @include css-arrow(top, left, 8px, 10px, $blue);
+  }
+  
+  &.large {
+    background: $blue;
+    @include css-arrow(bottom, right, 14px, 25px, $blue);
+  }
+  
+  &.border {
+    color: $blue;
+    width: 98px;
+    height: 28px;
+    border: 1px solid $blue;
+    background: $blue;
+    @include css-arrow(top, center, 18px, 0, $blue, $blue);
+  }
+  
+  &.flag {
+    color: $blue;
+    background: $blue;
+    @include css-arrow(right, center, 20px, 0, $blue, $blue, flag);
+  }
+  
+}

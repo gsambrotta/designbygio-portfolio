@@ -1,0 +1,113 @@
+// Tooltip style + arrow
+
+.tooltip {
+  position: relative;
+
+  &:before,
+  &:after {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  &:after {
+  border-right: 16px solid transparent;
+  border-top: 16px solid rgba(darken($blue, 20%),.75); 
+  border-left: 16px solid transparent;
+  content: '';
+  height: 0;
+  top: -14%;
+  left: 184px;
+  width: 0;
+  }
+
+  &:before {
+    background: rgba(darken($blue, 20%),.75);
+    border-radius: 2px;
+    color: #fff;
+    content: attr(data-title);
+    font-size: 1.2rem;
+    padding: 11px 22px;
+    top: -134px;
+    left: 1px;
+    width: 200px;
+    line-height: 1.5rem;
+    @include breakpoint(smallTablet) {
+      width: 209px;
+    }
+    @include breakpoint(tablet) {
+      top: -130px;
+    }
+  }
+
+  &.one:before {
+    @include breakpoint(smallTablet) {
+      top: -141px;
+    }
+  }
+  &.one:after {
+    @include breakpoint(smallTablet) {
+      top: -64%;
+      left: 100px;
+    }
+    @include breakpoint(tablet) {
+      top: -44%;
+    }
+  }
+
+  &.two:after, {
+    top: -105%;
+    @include breakpoint(smallTablet) {
+      left: 50px;
+    }
+    @include breakpoint(tablet) {
+      top: -67%;
+    }
+    @include breakpoint(screen) {
+      top: -81%;
+    }
+  }
+  &.two:before, {
+    top: -5%;
+    top: -114px;
+    @include breakpoint(tablet) {
+      top: -125px;
+    }
+    @include breakpoint(smallTablet) {
+      top: -120px;
+    }
+    @include breakpoint(screen) {
+      top: -125px;
+    }
+  }
+
+  &:last-child:after, {
+    top: -21px;
+    @include breakpoint(smallTablet) {
+      top: -37px;
+      left: 50px;
+    }
+    @include breakpoint(tablet) {
+      top: -33px; 
+    }
+  }
+}
+
+// Expand Animation
+.tooltip.expand:before {
+  transform: scale3d(.2,.2,1);
+  transition: all .2s ease-in-out;
+}
+.tooltip.expand:after {
+  transform: translate3d(0,6px,0);
+  transition: all .1s ease-in-out;
+}
+.tooltip.expand:hover:before,
+.tooltip.expand:hover:after {
+  opacity: 1;
+  transform: scale3d(1,1,1);
+}
+.tooltip.expand:hover:after {
+  transition: all .2s .1s ease-in-out;
+}

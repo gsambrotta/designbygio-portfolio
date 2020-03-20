@@ -1,0 +1,67 @@
+// Typography
+// ------------------
+
+
+// Font size
+$default-size: 1.4rem;
+
+
+html {
+  font-size: 62.5%; // =10px
+}
+
+body {
+  font-size: 14px;
+  font-size: $default-size;
+  font-family: Georgia, serif;
+	font-size: 0.7em;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	letter-spacing:-1px;
+	font-style: italic;
+}
+
+h1, .h1 {
+	font-size: 31px;
+  font-size: 3.1rem;
+}
+
+h2, .h2 {
+	font-size: 28px;
+  font-size: 2.8rem;
+}
+
+h3, .h3 {
+	font-size: 24px;
+  font-size: 2.4rem;
+}
+
+h4, .h4 {
+	font-size: 20px;
+  font-size: 2rem;
+}
+
+h5, .h5 {
+	font-size: 1.8px;
+  font-size: 1.8rem;
+}	
+
+h6, .h6 {
+	font-size: 1.6px;
+  font-size: 1.6rem;
+}	
+
+h1, h2 {
+	padding: 20px 0;
+}
+
+h3, h4 {
+	padding: 10px 0;
+}
+
