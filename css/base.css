@@ -11,6 +11,7 @@ html {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -60,11 +61,6 @@ h5 {
   font-size: 1.8rem;
 }
 
-a {
-  color: #17aedf;
-  text-decoration: none;
-}
-
 img,
 a,
 a:hover,
@@ -72,6 +68,30 @@ a:focus,
 a:active {
   border: none;
   cursor: pointer;
+}
+
+a {
+  color: #17aedf;
+  text-decoration: none;
+  border-bottom: 0px solid #17aedf;
+  position: relative;
+}
+
+p a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+p a:hover::after {
+  width: 100%;
+  background: #17aedf;
 }
 
 ul {

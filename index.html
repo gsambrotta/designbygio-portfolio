@@ -97,10 +97,6 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <script>
-      require('initialize')
-    </script>
-
     <!-- *** GA snippet *** -->
     <script type="text/javascript">
       var _gaq = _gaq || []
@@ -123,7 +119,7 @@
   <body>
     <header>
       <div class="logo">
-        <a href="index.html">
+        <a href="./index.html">
           <img
             class="logo-img"
             src="./images/logo.png"
@@ -134,11 +130,21 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="#projects-section">projects</a></li>
-          <li><a href="#about-section">about</a></li>
-          <li><a href="#services-section">services</a></li>
-          <li><a href="#contact-section">contact</a></li>
+          <li class="observe-intro-link">
+            <a href="./index.html">home</a>
+          </li>
+          <li class="observe-projects-link">
+            <a href="#projects-section">projects</a>
+          </li>
+          <li class="observe-about-link">
+            <a href="#about-section">about</a>
+          </li>
+          <li class="observe-services-link">
+            <a href="#services-section">services</a>
+          </li>
+          <li class="observe-contact-link">
+            <a href="#contact-section">contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -146,7 +152,7 @@
     <div class="parallax">
       <section id="intro-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--fore">
-          <div class="intro-title">
+          <div id="observe-intro" class="intro-title">
             <h1>Giorgia Sambrotta</h1>
             <h2>Web Frontend Developer</h2>
             <p>from design to fullstack, a complete overview.</p>
@@ -157,40 +163,47 @@
 
       <section id="projects-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 class="section-title section-title--light-bg">
+          <h2
+            id="observe-projects"
+            class="section-title section-title--light-bg"
+          >
             <span>PROJECTS</span>
           </h2>
         </div>
         <div class="parallax__layer parallax__layer--fore">
           <div class="projects-wrap">
             <h4>Collection of selected works</h4>
-            <div>Civey</div>
-            <div>Buzzfeed</div>
-            <div>Delivery Hero</div>
-            <div>100Danish</div>
-            <div>Discourse</div>
-            <div>Boatify</div>
-            <div>Artbutler</div>
-            <div>dEvolute</div>
-            <div>https://www.das-ist-thueringen.de</div>
+            <div class="projects-container">
+              <div>Civey</div>
+              <div>Buzzfeed</div>
+              <div>Delivery Hero</div>
+              <div>100Danish</div>
+              <div>Discourse</div>
+              <div>Boatify</div>
+              <div>Artbutler</div>
+              <div>dEvolute</div>
+              <div>https://www.das-ist-thueringen.de</div>
+            </div>
           </div>
           <div class="projects-wrap">
             <h4>Volounteer, mvp, workshops or for-fun works.</h4>
-            <div>OTS website</div>
-            <div>nextcloud</div>
-            <div>Discourse</div>
-            <div>Issmeet</div>
-            <div>Mininternet</div>
-            <div>Mongo app</div>
-            <div>Wine Catalogue</div>
-            <div>Html/css workshop</div>
+            <div class="projects-container">
+              <div>OTS website</div>
+              <div>nextcloud</div>
+              <div>Discourse</div>
+              <div>Issmeet</div>
+              <div>Mininternet</div>
+              <div>Mongo app</div>
+              <div>Wine Catalogue</div>
+              <div>Html/css workshop</div>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="about-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 class="section-title"><span>ABOUT</span></h2>
+          <h2 id="observe-about" class="section-title"><span>ABOUT</span></h2>
         </div>
         <div class="parallax__layer parallax__layer--fore">
           <div class="about-content">
@@ -281,9 +294,11 @@
                 >Wikimedia Foundation</a
               >.
               <br />
-              <a href="/sambrotta_giorgia_cv.pdf" class="cv-btn">
-                download my cv
-              </a>
+              <button>
+                <a href="/sambrotta_giorgia_cv.pdf" class="cv-btn">
+                  download my cv
+                </a>
+              </button>
             </p>
           </div>
         </div>
@@ -291,7 +306,9 @@
 
       <section id="services-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 class="section-title"><span>HOW CAN I HELP YOU?</span></h2>
+          <h2 id="observe-services" class="section-title">
+            <span>HOW CAN I HELP YOU?</span>
+          </h2>
         </div>
         <div class="parallax__layer parallax__layer--fore">
           <div class="services-wrap">
@@ -360,9 +377,7 @@
                   <li>Active part of concept and planning</li>
                   <li>UI/UX support</li>
                   <li>React, Nodejs, Redux, Nextjs are my daily food</li>
-                  <li>
-                    Npm, Webpack, Jest, Sentry,... don't scares me
-                  </li>
+                  <li>Npm, Webpack, Jest, Sentry,... don't scares me</li>
                   <li>Command line user. Yeah, also when working with git</li>
                   <li>Agile, Scrum, Kanban,... i got this cover</li>
                   <li>Some experience with CI/CD and deployment workflow</li>
@@ -377,14 +392,20 @@
 
       <section id="contact-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 class="section-title"><span>LET'S STAY CONNECTED</span></h2>
+          <h2 id="observe-contact" class="section-title">
+            <span>LET'S STAY CONNECTED</span>
+          </h2>
           <div class="contact-box__email">
             <h4>I'm always interested to hear about new projects</h4>
             <button>
               <a href="mailto:designbygio@pm.me">Drop me a line</a>
             </button>
-            <span id="copyEmail" class='copy-clipboard-email'>or copy to clipboard</span>
-            <span id="emailCopied" class='copy-clipboard-success'>email copied!</span>
+            <span id="copyEmail" class="copy-clipboard-email"
+              >or copy to clipboard</span
+            >
+            <span id="emailCopied" class="copy-clipboard-success"
+              >email copied!</span
+            >
           </div>
 
           <div class="contact-box__social">

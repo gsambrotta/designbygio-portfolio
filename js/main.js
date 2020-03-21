@@ -1,3 +1,28 @@
+// ACTIVE CLASS ON NAV
+window.addEventListener('DOMContentLoaded', () => {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      onSectionInPage(entry)
+    })
+  })
+
+  // observe all tag #observe-sectionName
+  document.querySelectorAll(`[id^='observe-']`).forEach(section => {
+    observer.observe(section)
+  })
+})
+
+function onSectionInPage(section) {
+  const sectionId = section.target.id
+  const link = document.querySelector(`.${sectionId}-link`)
+  if (section.intersectionRatio > 0) {
+    link.classList.add('active')
+  } else {
+    link.classList.remove('active')
+  }
+}
+
+// COPY TO CLIPBOARD
 document.querySelector('#copyEmail').addEventListener('click', copyToClipboard)
 
 function copyToClipboard() {
