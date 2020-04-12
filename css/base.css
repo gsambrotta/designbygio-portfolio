@@ -1,0 +1,119 @@
+/* General Rules */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 20px;
+  word-spacing: -1px;
+  color: #333;
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 25px;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+img,
+a,
+a:hover,
+a:focus,
+a:active {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: #17aedf;
+  text-decoration: none;
+  border-bottom: 0px solid #17aedf;
+  position: relative;
+}
+
+p a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+p a:hover::after {
+  width: 100%;
+  background: #17aedf;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  border: 0;
+}
+
+/* UTILITY */
+.font-white {
+  background: #fff;
+}
+.font-white--text {
+  color: #fff;
+}
+
+@media (min-width: 1250px) {
+  body {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}

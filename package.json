@@ -1,35 +1,26 @@
 {
-  "name": "brunch-app",
-  "description": "Description",
-  "author": "Your Name",
-  "version": "0.1.0",
+  "name": "designbygio-portoflio",
+  "version": "1.0.0",
+  "description": "Showcase of personal and selected projects - update 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/gsambrotta/designbygio-portfolio.git"
   },
-  "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+  "keywords": [
+    "designbygio",
+    "portoflio",
+    "parallax",
+    "frontend",
+    "developer"
+  ],
+  "author": "designbygio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsambrotta/designbygio-portfolio/issues"
   },
-
-  "dependencies": {
-    "ionicons": "^3.0.0",
-    "//": [
-      "static-handlebars-brunch:",
-      "^0.1.5",
-      "to use just as first build, then comment out and build again.",
-      "is because of conflict with this and handlebars-brunch" ]
-  },
-
-  "devDependencies": {
-    "auto-reload-brunch": "^2.0.0",
-    "brunch": "^2.0.0",
-    "clean-css-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
-    "handlebars-brunch": "^2.0.1",
-    "imageoptmizer-brunch": "0.0.6",
-    "javascript-brunch": "^2.0.0",
-    "sass-brunch": "^2.6.3",
-    "uglify-js-brunch": "^2.0.0"
-  }
+  "homepage": "https://github.com/gsambrotta/designbygio-portfolio#readme"
 }

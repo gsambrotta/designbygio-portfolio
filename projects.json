@@ -1,0 +1,192 @@
+[
+  {
+    "id": "civey",
+    "title": "Civey - Opinion Tech Company",
+    "descriptionCompany": "Civey is a 'public opinion' research company that offers high quality representative surveys in real time.",
+    "descriptionWork": "Daily tasks were, among others, to work on the company website built in Nextjs and Contentful, and on the web app using technologies like React, Redux, Nodejs/Hapi, Jest, and Storybook.",
+    "tags": [
+      "react",
+      "redux",
+      "nodejs",
+      "hapi",
+      "nextjs",
+      "jest",
+      "es6",
+      "npm",
+      "storybook"
+    ],
+    "links": ["https://civey.com"],
+    "backgroundImg": "./images/projects/civey_detail.png"
+  },
+  {
+    "id": "buzzfeed",
+    "title": "Buzzfeed NY",
+    "descriptionCompany": "Buzzfeed is a digital media company headquartered in New York City that delivers content and news globally.",
+    "descriptionWork": "I worked with Buzzfeed as a remote member of the Sass & Frontend Architectural Refactor Team. I contributed to a massive code refactoring that went from legacy code to organized CSS Architecture. We used this refactoring to create a live styleguide with BEM technique, even if at the time live styleguides weren't very common. My collaboration with BuzzFeed was entirely remote and good communications skills were key to the success of the project.",
+    "tags": [
+      "sass",
+      "Js/Prototype",
+      "selenium",
+      "styleguide",
+      "architecture",
+      "refactoring",
+      "modular code",
+      "BEM"
+    ],
+    "links": ["https://solid.buzzfeed.com"],
+    "backgroundImg": "./images/projects/buzzfeed_detail.png"
+  },
+  {
+    "id": "deliveryHero",
+    "title": "Delivery Hero - Online delivery platform",
+    "descriptionCompany": "Delivery Hero is an online food delivery platform which started in Berlin and quickly expanded to the international market.",
+    "descriptionWork": "After an entry position as web designer, I gradually moved to frontend development. As the company was in the process of going international, I had the chance to be part of the realization of a core platform that could be easily duplicated and customized for any new markets. Part of this project was to create a global live styleguide.",
+    "tags": [
+      "css",
+      "sass",
+      "ui",
+      "vanilla JS",
+      "multilanguage",
+      "modular code",
+      "templating language"
+    ],
+    "links": ["https://www.deliveryhero.com"],
+    "backgroundImg": "./images/projects/deliveryHero_detail.jpg"
+  },
+  {
+    "id": "danish",
+    "title": "100Danish - Web agency",
+    "descriptionCompany": "100 Danish is a Boston-based web agency specialized in responsive design and great data visualization.",
+    "descriptionWork": "I had an on-going remote collaboration with this amazing web agency which builds ambitious applications based on Wordpress. Although Wordpress is used as admin platform for the client, all the development is done using modern web development techniques like Gulp.",
+    "tags": ["css3", "animation", "jQuery", "Gulp", "wordpress", "BEM"],
+    "links": [
+      "https://100danish.com/",
+      "https://brownsardina.com/",
+      "https://bxcell.com/"
+    ],
+    "backgroundImg": "./images/projects/100Danish_detail.jpg"
+  },
+  {
+    "id": "discourse",
+    "title": "Discourse - open source forum",
+    "descriptionCompany": "Discourse is the 100% open source discussion platform built for the next decade of the Internet.",
+    "descriptionWork": "I had the pleasure to work on some features for the open source community of Discourse. Working for an open source tool is very interesting, and although task specifications are rather blurry, there is a lot of space for creativity and a whole community as product manager! Discourse is made with Ruby on Rails and Ember. I mostly worked with Ember to improve some UI/UX in the core app.",
+    "tags": [
+      "Ember",
+      "Javascript",
+      "css",
+      "Ruby on Rails pipeline",
+      "open source"
+    ],
+    "links": [
+      "https://www.discourse.org/",
+      "https://github.com/discourse/discourse/pulls?q=is%3Apr+author%3Agsambrotta+"
+    ],
+    "backgroundImg": "./images/projects/discourse_detail.png"
+  },
+  {
+    "id": "boatify",
+    "title": "Boatify - Boat rent platform",
+    "descriptionCompany": "Boatify is a young startup which aims to offer boat rental for boat experiences, daily trips or overnight adventures. I helped releasing an MVP, made with jQuery and PHP.",
+    "descriptionWork": "I joined Boatify in order to build an MVP product. The main technologies were PHP, Rest API, plain javascript/jQuery and SASS. As the only frontend developer, I realized templates and created a workflow to let users create their accounts and list their boats. As working at Boatify was often under time pressure, I had a fun time in finding the best architecture and balance for a small product with potential to grow bigger.",
+    "tags": ["javascript", "jQuery", "css3", "Restful Api", "BEM"],
+    "links": ["https://www.linkedin.com/company/boatify/about/"],
+    "backgroundImg": "./images/projects/boatify_detail.jpg"
+  },
+  {
+    "id": "artbutler",
+    "title": "ArtButler - Database and platform for artists and gallery",
+    "descriptionCompany": "ArtButler is a software created to facilitating workflow on the art market.",
+    "descriptionWork": "At ArtButler I helped rebuilding the software with newer technology and cleaner code. At that time the backend was made in python and the frontend was mostly plain Javascript with the help of some templating language. I followed closely the concept and realization of the main user dashboard, from UX/UI to frontend development.",
+    "tags": ["javascript", "jQuery", "css3", "UX", "UI"],
+    "links": ["https://www.artbutler.com/software/"],
+    "backgroundImg": "./images/projects/artbutler_detail.jpg"
+  },
+  {
+    "id": "devolute",
+    "title": "dEvolute - Digital Agency",
+    "descriptionCompany": "Devolute is a digital agency that helps startups and enterprises with software development mostly in Ruby.",
+    "descriptionWork": "I had an on-going collaboration with this agency which heavily relies on Spree CMS and Contentful API. I mainly helped with some frontend features, mostly connected to UI in different MVPs for young startups or UI improvements on established websites",
+    "tags": ["javascript", "jQuery", "css3", "Restful Api", "BEM"],
+    "links": ["https://www.devolute.org/en/technologies"],
+    "backgroundImg": "./images/projects/devolute_detail.png"
+  },
+  {
+    "id": "dit",
+    "title": "DIT - das ist Thueringen",
+    "descriptionCompany": "Interactive map for the website for the German region of Thueringen ",
+    "descriptionWork": "I developed an interactive map of the region, complete with points of interests, as integration to the website. The map is based on OpenStreet Map and Leaflet API with custom menu filter and marker aggregator. The filter is completely custom and it was interesting to combine it with the Leafletjs. This map is part of Alchemy CMS based on Ruby on Rails; basic knowledge of this tool was key to the project.",
+    "tags": ["javascript", "Leafletjs", "jQuery", "OpenStreet Map", "Sass"],
+    "links": ["https://www.das-ist-thueringen.de/"],
+    "backgroundImg": "./images/projects/dit_detail.png"
+  },
+  {
+    "id": "ots",
+    "title": "OpenTechSchool - Movement offering free tech education",
+    "descriptionCompany": "OpenTechSchool is a non-profit organization dedicated to make tech education free and open to everybody.",
+    "descriptionWork": "I co-founded OTS in 2012 and since then we have been organizing and hosting free workshops in 8 cities around the world. The much needed restyle of our website was built in Nextjs since it is a great framework for static websites and it is flexible enough to easily move code and data to any other platform.",
+    "tags": [
+      "Nextjs",
+      "React",
+      "Typescript",
+      "Now",
+      "Architecture",
+      "translation"
+    ],
+    "links": ["https://websitenext.now.sh/en"],
+    "backgroundImg": "./images/projects/ots_detail.jpg"
+  },
+  {
+    "id": "nextcloud",
+    "title": "Nextcloud - The open source self-hosted productivity platform",
+    "descriptionCompany": "Nextcloud is a completely integrated on-premises content collaboration platform. Teams can use it to share and collaborate on files, as mail provider or web calendar.",
+    "descriptionWork": "I contributed to some of their open issues, mostly UI improvements. I also joined their hackweek were I worked on a video tool with a very interesting WebRTC technology.",
+    "tags": ["javascript", "webRtc", "Backbone", "Marionette", "css"],
+    "links": [
+      "https://nextcloud.com/",
+      "https://github.com/nextcloud/spreed/pull/270"
+    ],
+    "backgroundImg": "./images/projects/nextcloud_detail.png"
+  },
+  {
+    "id": "issmeet",
+    "title": "Issmeet - bring people together through food",
+    "descriptionCompany": "Issmeet was a platform to connect travellers and locals through food, drinks and music.",
+    "descriptionWork": "I joined the team when the platform was still an idea jotted on paper. Together we created an MVP to present to investors. The platform was using nodejs, mongodb and Backbone.js.",
+    "tags": ["javascript", "backbone", "Grunt", "Browserify", "Nodejs"],
+    "links": ["https://www.f6s.com/issmeet"],
+    "backgroundImg": "./images/projects/issmeet_detail.png"
+  },
+  {
+    "id": "mininternet",
+    "title": "Mininternet - Content aggregation platform",
+    "descriptionCompany": "Mininternet is a content aggregation platform that uses natural language processing to make smart linking through contents.",
+    "descriptionWork": "This fun-project was a creation of a very smart developer that I was lucky enough to meet. I had the pleasure to help with the UX and concept and some UI fixes. When this project was developed, aggregation platforms were just starting to become popular and NLP was still experimental.",
+    "tags": ["UX", "UI", "Concept", "Javascript"],
+    "links": ["http://mininter.net/"],
+    "backgroundImg": "./images/projects/mininternet_detail.png"
+  },
+  {
+    "id": "wineage",
+    "title": "WineAge - the online wine catalogue",
+    "descriptionCompany": "WineAge is a young company dedicate to offer quality vegan wine in Europe.",
+    "descriptionWork": "I created a Wine Catalogue MVP to showcase their products and allow their customers to place orders. It uses Reactjs and Expressjs.",
+    "tags": ["Reactjs", "ES6", "Webpack", "Espressjs", "Nodejs"],
+    "links": [
+      "http://wineage.berlin/",
+      "http://github.com/gsambrotta/wine-catalogue"
+    ],
+    "backgroundImg": "./images/projects/wineage_detail.jpg"
+  },
+  {
+    "id": "htmlWorkshop",
+    "title": "Html/css for beginners - an OTS workshop",
+    "descriptionCompany": "Workshop aimed to teach the basics of HTML and CSS, in class or as online resource.",
+    "descriptionWork": "I created the first version of this workshop, and since then it has been updated and improved with the help of other OpenTechSchool organizers. Creating this tutorial was very interesting, it enriched me as developer and improved my communication skills.",
+    "tags": ["Html5", "Css3", "Workshop idea"],
+    "links": [
+      "http://opentechschool.github.io/html-css-beginners/en/index.html"
+    ],
+    "backgroundImg": "./images/projects/htmlWorkshop_detail.png"
+  }
+]
