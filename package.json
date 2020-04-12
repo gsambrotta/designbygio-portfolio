@@ -1,0 +1,26 @@
+{
+  "name": "designbygio-portoflio",
+  "version": "1.0.0",
+  "description": "Showcase of personal and selected projects - update 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsambrotta/designbygio-portfolio.git"
+  },
+  "keywords": [
+    "designbygio",
+    "portoflio",
+    "parallax",
+    "frontend",
+    "developer"
+  ],
+  "author": "designbygio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsambrotta/designbygio-portfolio/issues"
+  },
+  "homepage": "https://github.com/gsambrotta/designbygio-portfolio#readme"
+}
