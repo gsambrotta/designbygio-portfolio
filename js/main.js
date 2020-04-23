@@ -6,8 +6,8 @@ window.addEventListener('DOMContentLoaded', () => {
     })
   })
 
-  // observe all tag #observe-sectionName
-  document.querySelectorAll(`[id^='observe-']`).forEach((section) => {
+  // observe all tag #section-sectionName
+  document.querySelectorAll(`[id^='section-']`).forEach((section) => {
     observer.observe(section)
   })
 })
