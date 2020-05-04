@@ -261,6 +261,8 @@ nav .active::after {
   box-shadow: 3px 4px 16px 3px rgba(87, 87, 87, 0.25);
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects-container > div::after {
@@ -280,9 +282,10 @@ nav .active::after {
   opacity: 0.8;
 }
 
-.projects-container > div {
-  display: flex;
-  justify-content: space-between;
+.projects-container .fake-div {
+  z-index: -999;
+  opacity: 0;
+  height: 10px;
 }
 
 .projects-container > div .title {
