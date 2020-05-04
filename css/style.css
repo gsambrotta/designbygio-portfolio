@@ -218,6 +218,11 @@ nav .active::after {
   top: -5%;
 }
 
+#projects-section .section-title {
+  padding-top: 150px;
+  margin-top: -50px;
+}
+
 #projects-section .section-title::before,
 #projects-section .section-title::after {
   border-color: #ffcc54;
@@ -256,6 +261,8 @@ nav .active::after {
   box-shadow: 3px 4px 16px 3px rgba(87, 87, 87, 0.25);
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects-container > div::after {
@@ -275,9 +282,10 @@ nav .active::after {
   opacity: 0.8;
 }
 
-.projects-container > div {
-  display: flex;
-  justify-content: space-between;
+.projects-container .fake-div {
+  z-index: -999;
+  opacity: 0;
+  height: 10px;
 }
 
 .projects-container > div .title {
@@ -415,6 +423,11 @@ nav .active::after {
   background: #726680;
 }
 
+#about-section .section-title {
+  padding-top: 150px;
+  margin-top: -50px;
+}
+
 .about-content {
   width: 70%;
   max-width: 900px;
@@ -476,6 +489,8 @@ nav .active::after {
 #services-section .section-title {
   font-size: 30px;
   font-size: 3rem;
+  padding-top: 150px;
+  margin-top: -50px;
 }
 
 .service-box {
@@ -544,6 +559,11 @@ nav .active::after {
 
 #contact-section .parallax__layer--base {
   background: #726680;
+}
+
+#contact-section .section-title {
+  padding-top: 150px;
+  margin-top: -50px;
 }
 
 .contact-box__email {

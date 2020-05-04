@@ -9,25 +9,30 @@
       name="description"
       content="Giorgia Sambrotta - Web Frontend Developer. Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach."
     />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
-    />
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Giorgia Sambrotta Portfolio - Web Frontend Developer">
+    <meta itemprop="description" content="Giorgia Sambrotta - Web Frontend Developer. Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach.">
+    <meta itemprop="image" content="http://designbygio.it/images/social_tb.png">
 
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="http://designbygio.it">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Giorgia Sambrotta Portfolio - Web Frontend Developer">
-    <meta property="og:description" content="Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach.">
+    <meta property="og:description" content="Giorgia Sambrotta - Web Frontend Developer. Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach.">
     <meta property="og:image" content="http://designbygio.it/images/social_tb.png">
-    <meta property="og:url" content="http://designbygio.it/index.html">
     <meta property="og:site_name" content="Designbygio">
 
+    
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name=”twitter:title” content="Giorgia Sambrotta Portfolio - Web Frontend Developer">
-    <meta name=”twitter:description” content="Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach.">
-    <meta name=”twitter:image” content="http://designbygio.it/images/social_tb.png">
+    <meta name="twitter:title" content="Giorgia Sambrotta Portfolio - Web Frontend Developer">
+    <meta name="twitter:description" content="Giorgia Sambrotta - Web Frontend Developer. Creates functionally beautiful web applications with an eye to UI/UX and a fullstack approach.">
+    <meta name="twitter:image" content="http://designbygio.it/images/social_tb.png"><meta property="og:url" content="http://designbygio.it/index.html">
     <meta name="twitter:image:alt" content="giorgia sambrotta portfolio">
     <meta name=”twitter:site” content=”designbygio>
     <meta name=”twitter:creator” content=”@designbygio”>
-
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link rel="shortcut icon" type="image/png" href="./favicon.ico" />
     <link
       rel="apple-touch-icon"
@@ -121,20 +126,20 @@
       </div>
       <nav>
         <ul>
-          <li class="observe-intro-link">
-            <a href="#intro-section">home</a>
+          <li class="section-intro-link">
+            <a href="#section-intro">home</a>
           </li>
-          <li class="observe-projects-link">
-            <a href="#projects-section">projects</a>
+          <li class="section-projects-link">
+            <a href="#section-projects">projects</a>
           </li>
-          <li class="observe-about-link">
-            <a href="#about-section">about</a>
+          <li class="section-about-link">
+            <a href="#section-about">about</a>
           </li>
-          <li class="observe-services-link">
-            <a href="#services-section">services</a>
+          <li class="section-services-link">
+            <a href="#section-services">services</a>
           </li>
-          <li class="observe-contact-link">
-            <a href="#contact-section">contact</a>
+          <li class="section-contact-link">
+            <a href="#section-contact">contact</a>
           </li>
         </ul>
       </nav>
@@ -143,7 +148,7 @@
     <div class="parallax">
       <section id="intro-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--fore">
-          <div id="observe-intro" class="intro-title">
+          <div id="section-intro" class="intro-title">
             <h1>Giorgia Sambrotta</h1>
             <h2>Web Frontend Developer</h2>
             <p>from design to fullstack: a complete overview</p>
@@ -155,7 +160,7 @@
       <section id="projects-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
           <h2
-            id="observe-projects"
+            id="section-projects"
             class="section-title section-title--light-bg"
           >
             <span>PROJECTS</span>
@@ -270,6 +275,7 @@
                   />
                 </div>
               </div>
+              <div class='fake-div'></div> <!-- hidden div to keep last project correctly align in tablet view -->
             </div>
           </div>
           <div class="projects-wrap">
@@ -320,7 +326,7 @@
                   />
                 </div>
               </div>
-              <!-- <div id="mongo" style="background-color: #fff">
+              <div id="mongo" style="background-color: #a026bf">
                 <div class="title">
                   <h3>Mongo/Nodejs App</h3>
                   <p>Wes Bos Nodejs course</p>
@@ -328,7 +334,7 @@
                 <div class="img">
                   <img src="./images/projects/mongo_tb.png" />
                 </div>
-              </div> -->
+              </div>
               <div id="wineage" style="background-color: #e3e1d5;">
                 <div class="title">
                   <h3>Wine Age</h3>
@@ -353,6 +359,8 @@
                   />
                 </div>
               </div>
+              <div class='fake-div'></div> <!-- hidden div to keep last project correctly align in tablet view -->
+              <div class='fake-div'></div> <!-- hidden div to keep last project correctly align in tablet view -->
             </div>
           </div>
           <div id="overlayProject" class="overlay-project">
@@ -386,7 +394,7 @@
 
       <section id="about-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 id="observe-about" class="section-title"><span>ABOUT</span></h2>
+          <h2 id="section-about" class="section-title"><span>ABOUT</span></h2>
         </div>
         <div class="parallax__layer parallax__layer--fore">
           <div class="about-content">
@@ -472,7 +480,7 @@
 
       <section id="services-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 id="observe-services" class="section-title">
+          <h2 id="section-services" class="section-title">
             <span>HOW CAN I HELP YOU?</span>
           </h2>
         </div>
@@ -553,7 +561,7 @@
 
       <section id="contact-section" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <h2 id="observe-contact" class="section-title">
+          <h2 id="section-contact" class="section-title">
             <span>LET'S STAY CONNECTED</span>
           </h2>
           <div class="contact-box__email">

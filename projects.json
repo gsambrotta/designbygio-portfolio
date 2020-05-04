@@ -133,7 +133,7 @@
       "Architecture",
       "translation"
     ],
-    "links": ["https://websitenext.now.sh/en"],
+    "links": ["https://opentechschool.org"],
     "backgroundImg": "./images/projects/ots_detail.jpg"
   },
   {
@@ -165,6 +165,19 @@
     "tags": ["UX", "UI", "Concept", "Javascript"],
     "links": ["http://mininter.net/"],
     "backgroundImg": "./images/projects/mininternet_detail.png"
+  },
+  {
+    "id": "mongo",
+    "title": "Dang that's delicious - restaurant ranking app",
+    "descriptionCompany": "Wes Bos is a well known full stack developer that create a lot of valuable javascript related content.",
+    "descriptionWork": "In this course i improved my Nodejs skills and learnt the backend side of application development. I work with MongoDb and how to work with database doing queries and aggregations. I also learn to deploy an application, experimenting in different deployment platforms, and all the implication that come from it",
+    "tags": ["MongoDB", "Nodejs", "Espressjs", "Reactjs", "ES6"],
+    "links": [
+      "https://resturant-ranking-node-mongo.herokuapp.com/",
+      "https://github.com/gsambrotta/restaurant-app-wes-bos",
+      "https://learnnode.com/"
+    ],
+    "backgroundImg": "./images/projects/mongo_detail.png"
   },
   {
     "id": "wineage",
