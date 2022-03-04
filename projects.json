@@ -1,5 +1,63 @@
 [
   {
+    "id": "elliot",
+    "title": "Elliot for Water - The search engine that donates water",
+    "descriptionCompany": "",
+    "descriptionWork": "During my time at Elliot for Water I migrate from .Net to Nextjs the website and the browser extension, I open source and I created a blog. My work at Elliot for Water was mostly to take care of techincal decision, planning and organization of all the products. I worked side by side with CEO to plan the roadmap and the costs of the applications. Among my duties was also to decide and implement architectural solutions for the applications, the CI and the server. I was also participating in business meetings with business partners.",
+    "tags": [
+      "react",
+      "nextjs",
+      "nodejs",
+      "graphQL API",
+      "contentful",
+      "browser extensions",
+      "open Source",
+      "CI/CD",
+      "azure Web app",
+      "azure Search Bing API",
+      "decision making",
+      "roadmap",
+      "cost planning",
+      "API rate limit",
+      "migration",
+      "SEO"
+    ],
+    "links": [
+      "https://elliotforwater.com/",
+      "https://github.com/elliotForWater/"
+    ],
+    "backgroundImg": "./images/projects/elliot_detail.jpg"
+  },
+  {
+    "id": "wbs",
+    "title": "WBS Coding School - Hybrid Coding Bootcamp",
+    "descriptionCompany": "WBS Coding School is hybrid coding Bootcamp that offers a combination of online and onsite learning experience.",
+    "descriptionWork": "I lead a Fullstack Web Development course. The course is part-time on a timeframe of 6 months with classes that are around 6-8 students. In the course is taught every aspect of web development, soft skills included.",
+    "tags": [
+      "html/css",
+      "UI/UX",
+      "command line",
+      "Git/Github",
+      "Javascript",
+      "React",
+      "Es6",
+      "API",
+      "Nodejs",
+      "Expressjs",
+      "MongoDB",
+      "SQL",
+      "Authentication",
+      "Google Analytics",
+      "communications",
+      "teaching",
+      "empathy"
+    ],
+    "links": [
+      "https://www.wbscodingschool.com"
+    ],
+    "backgroundImg": "./images/projects/wbs_detail.png"
+  },
+  {
     "id": "civey",
     "title": "Civey - Opinion Tech Company",
     "descriptionCompany": "Civey is a 'public opinion' research company that offers high quality representative surveys in real time.",
@@ -15,7 +73,9 @@
       "npm",
       "storybook"
     ],
-    "links": ["https://civey.com"],
+    "links": [
+      "https://civey.com"
+    ],
     "backgroundImg": "./images/projects/civey_detail.png"
   },
   {
@@ -33,7 +93,9 @@
       "modular code",
       "BEM"
     ],
-    "links": ["https://solid.buzzfeed.com"],
+    "links": [
+      "https://solid.buzzfeed.com"
+    ],
     "backgroundImg": "./images/projects/buzzfeed_detail.png"
   },
   {
@@ -50,7 +112,9 @@
       "modular code",
       "templating language"
     ],
-    "links": ["https://www.deliveryhero.com"],
+    "links": [
+      "https://www.deliveryhero.com"
+    ],
     "backgroundImg": "./images/projects/deliveryHero_detail.jpg"
   },
   {
@@ -58,7 +122,14 @@
     "title": "100Danish - Web agency",
     "descriptionCompany": "100 Danish is a Boston-based web agency specialized in responsive design and great data visualization.",
     "descriptionWork": "I had an on-going remote collaboration with this amazing web agency which builds ambitious applications based on Wordpress. Although Wordpress is used as admin platform for the client, all the development is done using modern web development techniques like Gulp.",
-    "tags": ["css3", "animation", "jQuery", "Gulp", "wordpress", "BEM"],
+    "tags": [
+      "css3",
+      "animation",
+      "jQuery",
+      "Gulp",
+      "wordpress",
+      "BEM"
+    ],
     "links": [
       "https://100danish.com/",
       "https://brownsardina.com/",
@@ -89,26 +160,33 @@
     "title": "Boatify - Boat rent platform",
     "descriptionCompany": "Boatify is a young startup which aims to offer boat rental for boat experiences, daily trips or overnight adventures. I helped releasing an MVP, made with jQuery and PHP.",
     "descriptionWork": "I joined Boatify in order to build an MVP product. The main technologies were PHP, Rest API, plain javascript/jQuery and SASS. As the only frontend developer, I realized templates and created a workflow to let users create their accounts and list their boats. As working at Boatify was often under time pressure, I had a fun time in finding the best architecture and balance for a small product with potential to grow bigger.",
-    "tags": ["javascript", "jQuery", "css3", "Restful Api", "BEM"],
-    "links": ["https://www.linkedin.com/company/boatify/about/"],
+    "tags": [
+      "javascript",
+      "jQuery",
+      "css3",
+      "Restful Api",
+      "BEM"
+    ],
+    "links": [
+      "https://www.linkedin.com/company/boatify/about/"
+    ],
     "backgroundImg": "./images/projects/boatify_detail.jpg"
-  },
-  {
-    "id": "artbutler",
-    "title": "ArtButler - Database and platform for artists and gallery",
-    "descriptionCompany": "ArtButler is a software created to facilitating workflow on the art market.",
-    "descriptionWork": "At ArtButler I helped rebuilding the software with newer technology and cleaner code. At that time the backend was made in python and the frontend was mostly plain Javascript with the help of some templating language. I followed closely the concept and realization of the main user dashboard, from UX/UI to frontend development.",
-    "tags": ["javascript", "jQuery", "css3", "UX", "UI"],
-    "links": ["https://www.artbutler.com/software/"],
-    "backgroundImg": "./images/projects/artbutler_detail.jpg"
   },
   {
     "id": "devolute",
     "title": "dEvolute - Digital Agency",
     "descriptionCompany": "Devolute is a digital agency that helps startups and enterprises with software development mostly in Ruby.",
     "descriptionWork": "I had an on-going collaboration with this agency which heavily relies on Spree CMS and Contentful API. I mainly helped with some frontend features, mostly connected to UI in different MVPs for young startups or UI improvements on established websites",
-    "tags": ["javascript", "jQuery", "css3", "Restful Api", "BEM"],
-    "links": ["https://www.devolute.org/en/technologies"],
+    "tags": [
+      "javascript",
+      "jQuery",
+      "css3",
+      "Restful Api",
+      "BEM"
+    ],
+    "links": [
+      "https://www.devolute.org/en/technologies"
+    ],
     "backgroundImg": "./images/projects/devolute_detail.png"
   },
   {
@@ -116,8 +194,16 @@
     "title": "DIT - das ist Thueringen",
     "descriptionCompany": "Interactive map for the website for the German region of Thueringen ",
     "descriptionWork": "I developed an interactive map of the region, complete with points of interests, as integration to the website. The map is based on OpenStreet Map and Leaflet API with custom menu filter and marker aggregator. The filter is completely custom and it was interesting to combine it with the Leafletjs. This map is part of Alchemy CMS based on Ruby on Rails; basic knowledge of this tool was key to the project.",
-    "tags": ["javascript", "Leafletjs", "jQuery", "OpenStreet Map", "Sass"],
-    "links": ["https://www.das-ist-thueringen.de/"],
+    "tags": [
+      "javascript",
+      "Leafletjs",
+      "jQuery",
+      "OpenStreet Map",
+      "Sass"
+    ],
+    "links": [
+      "https://www.das-ist-thueringen.de/"
+    ],
     "backgroundImg": "./images/projects/dit_detail.png"
   },
   {
@@ -133,7 +219,9 @@
       "Architecture",
       "translation"
     ],
-    "links": ["https://opentechschool.org"],
+    "links": [
+      "https://opentechschool.org"
+    ],
     "backgroundImg": "./images/projects/ots_detail.jpg"
   },
   {
@@ -141,7 +229,13 @@
     "title": "Nextcloud - The open source self-hosted productivity platform",
     "descriptionCompany": "Nextcloud is a completely integrated on-premises content collaboration platform. Teams can use it to share and collaborate on files, as mail provider or web calendar.",
     "descriptionWork": "I contributed to some of their open issues, mostly UI improvements. I also joined their hackweek were I worked on a video tool with a very interesting WebRTC technology.",
-    "tags": ["javascript", "webRtc", "Backbone", "Marionette", "css"],
+    "tags": [
+      "javascript",
+      "webRtc",
+      "Backbone",
+      "Marionette",
+      "css"
+    ],
     "links": [
       "https://nextcloud.com/",
       "https://github.com/nextcloud/spreed/pull/270"
@@ -153,8 +247,16 @@
     "title": "Issmeet - bring people together through food",
     "descriptionCompany": "Issmeet was a platform to connect travellers and locals through food, drinks and music.",
     "descriptionWork": "I joined the team when the platform was still an idea jotted on paper. Together we created an MVP to present to investors. The platform was using nodejs, mongodb and Backbone.js.",
-    "tags": ["javascript", "backbone", "Grunt", "Browserify", "Nodejs"],
-    "links": ["https://www.f6s.com/issmeet"],
+    "tags": [
+      "javascript",
+      "backbone",
+      "Grunt",
+      "Browserify",
+      "Nodejs"
+    ],
+    "links": [
+      "https://www.f6s.com/issmeet"
+    ],
     "backgroundImg": "./images/projects/issmeet_detail.png"
   },
   {
@@ -162,8 +264,15 @@
     "title": "Mininternet - Content aggregation platform",
     "descriptionCompany": "Mininternet is a content aggregation platform that uses natural language processing to make smart linking through contents.",
     "descriptionWork": "This fun-project was a creation of a very smart developer that I was lucky enough to meet. I had the pleasure to help with the UX and concept and some UI fixes. When this project was developed, aggregation platforms were just starting to become popular and NLP was still experimental.",
-    "tags": ["UX", "UI", "Concept", "Javascript"],
-    "links": ["http://mininter.net/"],
+    "tags": [
+      "UX",
+      "UI",
+      "Concept",
+      "Javascript"
+    ],
+    "links": [
+      "http://mininter.net/"
+    ],
     "backgroundImg": "./images/projects/mininternet_detail.png"
   },
   {
@@ -171,7 +280,13 @@
     "title": "Dang that's delicious - restaurant ranking app",
     "descriptionCompany": "Wes Bos is a well known full stack developer that create a lot of valuable javascript related content.",
     "descriptionWork": "In this course i improved my Nodejs skills and learnt the backend side of application development. I work with MongoDb and how to work with database doing queries and aggregations. I also learn to deploy an application, experimenting in different deployment platforms, and all the implication that come from it",
-    "tags": ["MongoDB", "Nodejs", "Espressjs", "Reactjs", "ES6"],
+    "tags": [
+      "MongoDB",
+      "Nodejs",
+      "Espressjs",
+      "Reactjs",
+      "ES6"
+    ],
     "links": [
       "https://resturant-ranking-node-mongo.herokuapp.com/",
       "https://github.com/gsambrotta/restaurant-app-wes-bos",
@@ -184,7 +299,13 @@
     "title": "WineAge - the online wine catalogue",
     "descriptionCompany": "WineAge is a young company dedicate to offer quality vegan wine in Europe.",
     "descriptionWork": "I created a Wine Catalogue MVP to showcase their products and allow their customers to place orders. It uses Reactjs and Expressjs.",
-    "tags": ["Reactjs", "ES6", "Webpack", "Espressjs", "Nodejs"],
+    "tags": [
+      "Reactjs",
+      "ES6",
+      "Webpack",
+      "Espressjs",
+      "Nodejs"
+    ],
     "links": [
       "http://wineage.berlin/",
       "http://github.com/gsambrotta/wine-catalogue"
@@ -196,7 +317,11 @@
     "title": "Html/css for beginners - an OTS workshop",
     "descriptionCompany": "Workshop aimed to teach the basics of HTML and CSS, in class or as online resource.",
     "descriptionWork": "I created the first version of this workshop, and since then it has been updated and improved with the help of other OpenTechSchool organizers. Creating this tutorial was very interesting, it enriched me as developer and improved my communication skills.",
-    "tags": ["Html5", "Css3", "Workshop idea"],
+    "tags": [
+      "Html5",
+      "Css3",
+      "Workshop idea"
+    ],
     "links": [
       "http://opentechschool.github.io/html-css-beginners/en/index.html"
     ],
